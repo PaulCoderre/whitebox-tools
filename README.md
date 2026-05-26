@@ -1,5 +1,6 @@
 ![](./img/WhiteboxToolsLogoBlue.png)
 
+**Please note this repo is marked as legacy. Whitebox development has moved on to [Whitebox Workflows Next Gen](https://github.com/jblindsay/whitebox_next_gen). All issues and concerns should be reported there**
 
 > Note: Compiled WhiteboxTools binaries for Windows, macOS, and Linux can be found at: https://www.whiteboxgeo.com/download-whiteboxtools/
 
