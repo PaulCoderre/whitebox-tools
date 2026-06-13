@@ -317,10 +317,11 @@ impl WhiteboxTool for FillDepressions {
         }
         let output2 = Arc::new(output);
         let (tx, rx) = mpsc::channel();
+        let mut handles = Vec::with_capacity(num_procs as usize);
         for tid in 0..num_procs {
             let output2 = output2.clone();
             let tx = tx.clone();
-            thread::spawn(move || {
+            handles.push(thread::spawn(move || {
                 let mut z: f64;
                 let mut zn: f64;
                 let mut flag: bool;
@@ -346,7 +347,7 @@ impl WhiteboxTool for FillDepressions {
                     }
                 }
                 tx.send(pits).unwrap();
-            });
+            }));
         }
 
         let mut undefined_flow_cells = vec![];
@@ -363,6 +364,12 @@ impl WhiteboxTool for FillDepressions {
             }
         }
 
+        // Ensure all spawned threads (and their Arc clones) have fully
+        // exited before Arc::try_unwrap -- fixes intermittent
+        // "Error unwrapping 'output'" panics caused by a race condition.
+        for h in handles {
+            h.join().expect("Thread panicked");
+        }
         output = match Arc::try_unwrap(output2) {
             Ok(val) => val,
             Err(_) => panic!("Error unwrapping 'output'"),

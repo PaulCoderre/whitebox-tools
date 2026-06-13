@@ -1,0 +1,2588 @@
+Restoring modules from user's scimods
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: rstudio-server
+(required by: jupyterlab-apps/1.0)
+-------------------------------------------------------------------------------
+
+
+
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+  |
+  = note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+  = note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+  = note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+warning: whitebox_plugins v2.4.0 (/work/whitebox-plugins) ignoring invalid dependency `tsp-rs` which is missing a lib target
+   Compiling proc-macro2 v1.0.106
+   Compiling unicode-ident v1.0.24
+   Compiling quote v1.0.45
+   Compiling libc v0.2.186
+   Compiling pkg-config v0.3.33
+   Compiling autocfg v1.5.1
+   Compiling cfg-if v1.0.4
+   Compiling serde_core v1.0.228
+   Compiling serde v1.0.228
+   Compiling find-msvc-tools v0.1.9
+   Compiling shlex v2.0.1
+   Compiling smallvec v1.15.2
+   Compiling libm v0.2.16
+   Compiling num-traits v0.2.19
+   Compiling stable_deref_trait v1.2.1
+   Compiling zerocopy v0.8.52
+   Compiling typenum v1.20.1
+   Compiling log v0.4.32
+   Compiling simd-adler32 v0.3.9
+   Compiling scopeguard v1.2.0
+   Compiling lock_api v0.4.14
+   Compiling crc32fast v1.5.0
+   Compiling adler2 v2.0.1
+   Compiling miniz_oxide v0.8.9
+   Compiling jobserver v0.1.34
+   Compiling thiserror v1.0.69
+   Compiling byteorder v1.5.0
+   Compiling syn v2.0.117
+   Compiling cc v1.2.64
+   Compiling flate2 v1.1.9
+   Compiling paste v1.0.15
+   Compiling itoa v1.0.18
+   Compiling crossbeam-utils v0.8.21
+   Compiling ucd-trie v0.1.7
+   Compiling rawpointer v0.2.1
+   Compiling memchr v2.8.2
+   Compiling semver v1.0.28
+   Compiling getrandom v0.1.16
+   Compiling rustc_version v0.4.1
+   Compiling num-integer v0.1.46
+   Compiling pest v2.8.6
+   Compiling approx v0.5.1
+   Compiling num-complex v0.4.6
+   Compiling crossbeam-epoch v0.9.18
+   Compiling matrixmultiply v0.3.10
+   Compiling rayon-core v1.13.0
+   Compiling crossbeam-deque v0.8.6
+   Compiling bzip2-sys v0.1.13+1.0.8
+   Compiling heapless v0.7.17
+   Compiling autocfg v0.1.8
+   Compiling semver-parser v0.10.3
+   Compiling rand_core v0.4.2
+   Compiling version_check v0.9.5
+   Compiling rand_core v0.5.1
+   Compiling semver v0.11.0
+   Compiling num-rational v0.4.2
+   Compiling hash32 v0.2.1
+   Compiling serde_derive v1.0.228
+   Compiling bytemuck_derive v1.10.2
+   Compiling zerocopy-derive v0.8.52
+   Compiling thiserror-impl v1.0.69
+   Compiling bytemuck v1.25.0
+   Compiling spin v0.9.8
+   Compiling hashbrown v0.17.1
+   Compiling zmij v1.0.21
+   Compiling equivalent v1.0.2
+   Compiling safe_arch v0.7.4
+   Compiling target-lexicon v0.12.16
+   Compiling indexmap v2.14.0
+   Compiling rustc_version v0.3.3
+   Compiling serde_json v1.0.150
+   Compiling winnow v0.7.15
+   Compiling wide v0.7.33
+   Compiling serde_spanned v0.6.9
+   Compiling toml_datetime v0.6.11
+   Compiling either v1.16.0
+   Compiling whitebox_common v2.3.0 (/work/whitebox-common)
+   Compiling rayon v1.12.0
+   Compiling nalgebra-macros v0.2.2
+   Compiling rand_pcg v0.2.1
+   Compiling iana-time-zone v0.1.65
+   Compiling cfg-expr v0.15.8
+   Compiling chrono v0.4.45
+   Compiling toml_edit v0.22.27
+   Compiling ppv-lite86 v0.2.21
+   Compiling simba v0.8.1
+   Compiling rand_chacha v0.2.2
+   Compiling rstar v0.10.0
+   Compiling rand_core v0.3.1
+   Compiling version-compare v0.2.1
+   Compiling rand v0.7.3
+   Compiling heck v0.5.0
+   Compiling alloc-no-stdlib v2.0.4
+   Compiling alloc-stdlib v0.2.2
+   Compiling rand_chacha v0.1.1
+   Compiling rand_pcg v0.1.2
+   Compiling time v0.1.45
+   Compiling num-complex v0.2.4
+   Compiling bitflags v1.3.2
+   Compiling toml v0.8.23
+   Compiling adler32 v1.2.0
+   Compiling miniz_oxide v0.3.7
+   Compiling system-deps v6.2.2
+   Compiling msdos_time v0.1.6
+   Compiling brotli-decompressor v2.5.1
+   Compiling bzip2 v0.3.3
+   Compiling nalgebra v0.32.6
+   Compiling rand v0.6.5
+   Compiling laz v0.9.3
+   Compiling ordered-float v3.9.2
+   Compiling num_cpus v1.17.0
+   Compiling num-rational v0.2.4
+   Compiling lzw v0.10.0
+   Compiling pdqselect v0.1.1
+   Compiling uuid v1.23.3
+   Compiling podio v0.1.7
+   Compiling zip v0.3.3
+   Compiling brotli v3.5.0
+   Compiling las v0.8.8
+   Compiling rand_isaac v0.1.1
+   Compiling rand_xorshift v0.1.1
+   Compiling rand_hc v0.1.0
+   Compiling rand_os v0.1.3
+   Compiling rand_jitter v0.1.4
+   Compiling approx v0.3.2
+   Compiling once_cell v1.21.4
+   Compiling alga v0.9.3
+   Compiling kdtree v0.6.0
+   Compiling matrixmultiply v0.2.4
+   Compiling generic-array v0.12.4
+   Compiling memoffset v0.6.5
+   Compiling nalgebra v0.18.1
+   Compiling kd-tree v0.4.2
+   Compiling rstar v0.9.3
+   Compiling xml-rs v0.8.28
+   Compiling evalexpr v10.0.0
+   Compiling fasteval v0.2.4
+   Compiling synstructure v0.13.2
+   Compiling lazy_static v1.5.0
+   Compiling wayland-scanner v0.29.5
+   Compiling nix v0.24.3
+   Compiling zerofrom-derive v0.1.7
+   Compiling yoke-derive v0.8.2
+   Compiling zerovec-derive v0.11.3
+   Compiling zerofrom v0.1.8
+   Compiling cmake v0.1.58
+   Compiling yoke v0.8.3
+   Compiling displaydoc v0.2.6
+   Compiling wayland-sys v0.29.5
+   Compiling zerovec v0.11.6
+   Compiling libloading v0.8.9
+   Compiling pin-project-lite v0.2.17
+   Compiling dlib v0.5.3
+   Compiling generic-array v0.14.7
+   Compiling wayland-client v0.29.5
+   Compiling tinystr v0.8.3
+   Compiling whitebox_raster v2.3.0 (/work/whitebox-raster)
+   Compiling whitebox_vector v1.5.0 (/work/whitebox-vector)
+   Compiling freetype-sys v0.13.1
+   Compiling wayland-commons v0.29.5
+   Compiling downcast-rs v1.2.1
+   Compiling scoped-tls v1.0.1
+   Compiling writeable v0.6.3
+warning: unnecessary transmute
+   --> whitebox-raster/src/arcbinary_raster.rs:222:30
+    |
+222 |         u32_bytes = unsafe { mem::transmute(r.data[i] as f32) };
+    |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+    = note: `#[warn(unnecessary_transmutes)]` on by default
+help: replace this with
+    |
+222 -         u32_bytes = unsafe { mem::transmute(r.data[i] as f32) };
+222 +         u32_bytes = unsafe { f32::to_ne_bytes(r.data[i] as f32) };
+    |
+
+warning: unnecessary transmute
+  --> whitebox-raster/src/geotiff/geokeys.rs:93:47
+   |
+93 |                     let byte_array = unsafe { transmute::<f64, [u8; 8]>(v) };
+   |                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+   |
+93 -                     let byte_array = unsafe { transmute::<f64, [u8; 8]>(v) };
+93 +                     let byte_array = unsafe { f64::to_ne_bytes(v) };
+   |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/geotiff/geokeys.rs:101:43
+    |
+101 |                 let byte_array = unsafe { transmute::<u16, [u8; 2]>(value_offset) };
+    |                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+101 -                 let byte_array = unsafe { transmute::<u16, [u8; 2]>(value_offset) };
+101 +                 let byte_array = unsafe { u16::to_ne_bytes(value_offset) };
+    |
+
+   Compiling parking_lot_core v0.9.12
+warning: unnecessary transmute
+   --> whitebox-raster/src/idrisi_raster.rs:171:25
+    |
+171 | /                         mem::transmute::<[u8; 4], f32>([
+172 | |                             buffer[offset],
+173 | |                             buffer[offset + 1],
+174 | |                             buffer[offset + 2],
+175 | |                             buffer[offset + 3],
+176 | |                         ])
+    | |__________________________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+171 -                         mem::transmute::<[u8; 4], f32>([
+171 +                         f32::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/idrisi_raster.rs:189:25
+    |
+189 | /                         mem::transmute::<[u8; 4], u32>([
+190 | |                             buffer[offset],
+191 | |                             buffer[offset + 1],
+192 | |                             buffer[offset + 2],
+193 | |                             255,
+194 | |                         ])
+    | |__________________________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+189 -                         mem::transmute::<[u8; 4], u32>([
+189 +                         u32::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/idrisi_raster.rs:206:25
+    |
+206 |                         mem::transmute::<[u8; 2], i16>([buffer[offset], buffer[offset + 1]])
+    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+206 -                         mem::transmute::<[u8; 2], i16>([buffer[offset], buffer[offset + 1]])
+206 +                         i16::from_ne_bytes([buffer[offset], buffer[offset + 1]])
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/idrisi_raster.rs:377:38
+    |
+377 |                 u32_bytes = unsafe { mem::transmute(r.data[i] as f32) };
+    |                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+377 -                 u32_bytes = unsafe { mem::transmute(r.data[i] as f32) };
+377 +                 u32_bytes = unsafe { f32::to_ne_bytes(r.data[i] as f32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/idrisi_raster.rs:394:38
+    |
+394 |                 u16_bytes = unsafe { mem::transmute(r.data[i] as u16) };
+    |                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+394 -                 u16_bytes = unsafe { mem::transmute(r.data[i] as u16) };
+394 +                 u16_bytes = unsafe { u16::to_ne_bytes(r.data[i] as u16) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/saga_raster.rs:546:42
+    |
+546 |                     u64_bytes = unsafe { mem::transmute(r.data[i]) };
+    |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+546 -                     u64_bytes = unsafe { mem::transmute(r.data[i]) };
+546 +                     u64_bytes = unsafe { f64::to_ne_bytes(r.data[i]) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/saga_raster.rs:555:42
+    |
+555 |                     u32_bytes = unsafe { mem::transmute(r.data[i] as f32) };
+    |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+555 -                     u32_bytes = unsafe { mem::transmute(r.data[i] as f32) };
+555 +                     u32_bytes = unsafe { f32::to_ne_bytes(r.data[i] as f32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/saga_raster.rs:564:42
+    |
+564 |                     u32_bytes = unsafe { mem::transmute(r.data[i] as i32) };
+    |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+564 -                     u32_bytes = unsafe { mem::transmute(r.data[i] as i32) };
+564 +                     u32_bytes = unsafe { i32::to_ne_bytes(r.data[i] as i32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/saga_raster.rs:573:42
+    |
+573 |                     u32_bytes = unsafe { mem::transmute(r.data[i] as u32) };
+    |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+573 -                     u32_bytes = unsafe { mem::transmute(r.data[i] as u32) };
+573 +                     u32_bytes = unsafe { u32::to_ne_bytes(r.data[i] as u32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/saga_raster.rs:582:42
+    |
+582 |                     u16_bytes = unsafe { mem::transmute(r.data[i] as i16) };
+    |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+582 -                     u16_bytes = unsafe { mem::transmute(r.data[i] as i16) };
+582 +                     u16_bytes = unsafe { i16::to_ne_bytes(r.data[i] as i16) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/saga_raster.rs:591:42
+    |
+591 |                     u16_bytes = unsafe { mem::transmute(r.data[i] as u16) };
+    |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+591 -                     u16_bytes = unsafe { mem::transmute(r.data[i] as u16) };
+591 +                     u16_bytes = unsafe { u16::to_ne_bytes(r.data[i] as u16) };
+    |
+
+warning: unnecessary transmute
+  --> whitebox-raster/src/surfer7_raster.rs:29:9
+   |
+29 | /         mem::transmute::<[u8; 4], i32>([
+30 | |             buffer[offset],
+31 | |             buffer[offset + 1],
+32 | |             buffer[offset + 2],
+33 | |             buffer[offset + 3],
+34 | |         ])
+   | |__________^
+   |
+   = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+   |
+29 -         mem::transmute::<[u8; 4], i32>([
+29 +         i32::from_ne_bytes([
+   |
+
+warning: unnecessary transmute
+  --> whitebox-raster/src/surfer7_raster.rs:45:9
+   |
+45 | /         mem::transmute::<[u8; 4], i32>([
+46 | |             buffer[offset],
+47 | |             buffer[offset + 1],
+48 | |             buffer[offset + 2],
+49 | |             buffer[offset + 3],
+50 | |         ])
+   | |__________^
+   |
+   = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+   |
+45 -         mem::transmute::<[u8; 4], i32>([
+45 +         i32::from_ne_bytes([
+   |
+
+warning: unnecessary transmute
+  --> whitebox-raster/src/surfer7_raster.rs:61:9
+   |
+61 | /         mem::transmute::<[u8; 4], i32>([
+62 | |             buffer[offset],
+63 | |             buffer[offset + 1],
+64 | |             buffer[offset + 2],
+65 | |             buffer[offset + 3],
+66 | |         ])
+   | |__________^
+   |
+   = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+   |
+61 -         mem::transmute::<[u8; 4], i32>([
+61 +         i32::from_ne_bytes([
+   |
+
+warning: unnecessary transmute
+  --> whitebox-raster/src/surfer7_raster.rs:72:9
+   |
+72 | /         mem::transmute::<[u8; 4], i32>([
+73 | |             buffer[offset],
+74 | |             buffer[offset + 1],
+75 | |             buffer[offset + 2],
+76 | |             buffer[offset + 3],
+77 | |         ])
+   | |__________^
+   |
+   = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+   |
+72 -         mem::transmute::<[u8; 4], i32>([
+72 +         i32::from_ne_bytes([
+   |
+
+warning: unnecessary transmute
+  --> whitebox-raster/src/surfer7_raster.rs:88:9
+   |
+88 | /         mem::transmute::<[u8; 4], i32>([
+89 | |             buffer[offset],
+90 | |             buffer[offset + 1],
+91 | |             buffer[offset + 2],
+92 | |             buffer[offset + 3],
+93 | |         ])
+   | |__________^
+   |
+   = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+   |
+88 -         mem::transmute::<[u8; 4], i32>([
+88 +         i32::from_ne_bytes([
+   |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:104:9
+    |
+104 | /         mem::transmute::<[u8; 4], i32>([
+105 | |             buffer[offset],
+106 | |             buffer[offset + 1],
+107 | |             buffer[offset + 2],
+108 | |             buffer[offset + 3],
+109 | |         ])
+    | |__________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+104 -         mem::transmute::<[u8; 4], i32>([
+104 +         i32::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:114:9
+    |
+114 | /         mem::transmute::<[u8; 4], i32>([
+115 | |             buffer[offset],
+116 | |             buffer[offset + 1],
+117 | |             buffer[offset + 2],
+118 | |             buffer[offset + 3],
+119 | |         ])
+    | |__________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+114 -         mem::transmute::<[u8; 4], i32>([
+114 +         i32::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:126:9
+    |
+126 | /         mem::transmute::<[u8; 8], f64>([
+127 | |             buffer[offset],
+128 | |             buffer[offset + 1],
+129 | |             buffer[offset + 2],
+...   |
+134 | |             buffer[offset + 7],
+135 | |         ])
+    | |__________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+126 -         mem::transmute::<[u8; 8], f64>([
+126 +         f64::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:140:9
+    |
+140 | /         mem::transmute::<[u8; 8], f64>([
+141 | |             buffer[offset],
+142 | |             buffer[offset + 1],
+143 | |             buffer[offset + 2],
+...   |
+148 | |             buffer[offset + 7],
+149 | |         ])
+    | |__________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+140 -         mem::transmute::<[u8; 8], f64>([
+140 +         f64::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:154:9
+    |
+154 | /         mem::transmute::<[u8; 8], f64>([
+155 | |             buffer[offset],
+156 | |             buffer[offset + 1],
+157 | |             buffer[offset + 2],
+...   |
+162 | |             buffer[offset + 7],
+163 | |         ])
+    | |__________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+154 -         mem::transmute::<[u8; 8], f64>([
+154 +         f64::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:168:9
+    |
+168 | /         mem::transmute::<[u8; 8], f64>([
+169 | |             buffer[offset],
+170 | |             buffer[offset + 1],
+171 | |             buffer[offset + 2],
+...   |
+176 | |             buffer[offset + 7],
+177 | |         ])
+    | |__________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+168 -         mem::transmute::<[u8; 8], f64>([
+168 +         f64::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:185:9
+    |
+185 | /         mem::transmute::<[u8; 8], f64>([
+186 | |             buffer[offset],
+187 | |             buffer[offset + 1],
+188 | |             buffer[offset + 2],
+...   |
+193 | |             buffer[offset + 7],
+194 | |         ])
+    | |__________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+185 -         mem::transmute::<[u8; 8], f64>([
+185 +         f64::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:199:9
+    |
+199 | /         mem::transmute::<[u8; 8], f64>([
+200 | |             buffer[offset],
+201 | |             buffer[offset + 1],
+202 | |             buffer[offset + 2],
+...   |
+207 | |             buffer[offset + 7],
+208 | |         ])
+    | |__________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+199 -         mem::transmute::<[u8; 8], f64>([
+199 +         f64::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:217:9
+    |
+217 | /         mem::transmute::<[u8; 8], f64>([
+218 | |             buffer[offset],
+219 | |             buffer[offset + 1],
+220 | |             buffer[offset + 2],
+...   |
+225 | |             buffer[offset + 7],
+226 | |         ])
+    | |__________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+217 -         mem::transmute::<[u8; 8], f64>([
+217 +         f64::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:234:9
+    |
+234 | /         mem::transmute::<[u8; 8], f64>([
+235 | |             buffer[offset],
+236 | |             buffer[offset + 1],
+237 | |             buffer[offset + 2],
+...   |
+242 | |             buffer[offset + 7],
+243 | |         ])
+    | |__________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+234 -         mem::transmute::<[u8; 8], f64>([
+234 +         f64::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:261:21
+    |
+261 | /                     mem::transmute::<[u8; 8], f64>([
+262 | |                         buffer[offset],
+263 | |                         buffer[offset + 1],
+264 | |                         buffer[offset + 2],
+...   |
+269 | |                         buffer[offset + 7],
+270 | |                     ])
+    | |______________________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+261 -                     mem::transmute::<[u8; 8], f64>([
+261 +                     f64::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:286:21
+    |
+286 | /                     mem::transmute::<[u8; 8], f64>([
+287 | |                         buffer[offset],
+288 | |                         buffer[offset + 1],
+289 | |                         buffer[offset + 2],
+...   |
+294 | |                         buffer[offset + 7],
+295 | |                     ])
+    | |______________________^
+    |
+    = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+286 -                     mem::transmute::<[u8; 8], f64>([
+286 +                     f64::from_ne_bytes([
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:332:26
+    |
+332 |     u32_bytes = unsafe { mem::transmute(0x42525344i32) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+332 -     u32_bytes = unsafe { mem::transmute(0x42525344i32) };
+332 +     u32_bytes = unsafe { i32::to_ne_bytes(0x42525344i32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:335:26
+    |
+335 |     u32_bytes = unsafe { mem::transmute(4i32) };
+    |                          ^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+335 -     u32_bytes = unsafe { mem::transmute(4i32) };
+335 +     u32_bytes = unsafe { i32::to_ne_bytes(4i32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:338:26
+    |
+338 |     u32_bytes = unsafe { mem::transmute(2i32) };
+    |                          ^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+338 -     u32_bytes = unsafe { mem::transmute(2i32) };
+338 +     u32_bytes = unsafe { i32::to_ne_bytes(2i32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:341:26
+    |
+341 |     u32_bytes = unsafe { mem::transmute(0x44495247i32) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+341 -     u32_bytes = unsafe { mem::transmute(0x44495247i32) };
+341 +     u32_bytes = unsafe { i32::to_ne_bytes(0x44495247i32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:344:26
+    |
+344 |     u32_bytes = unsafe { mem::transmute(72i32) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+344 -     u32_bytes = unsafe { mem::transmute(72i32) };
+344 +     u32_bytes = unsafe { i32::to_ne_bytes(72i32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:347:26
+    |
+347 |     u32_bytes = unsafe { mem::transmute(r.configs.rows as i32) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+347 -     u32_bytes = unsafe { mem::transmute(r.configs.rows as i32) };
+347 +     u32_bytes = unsafe { i32::to_ne_bytes(r.configs.rows as i32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:350:26
+    |
+350 |     u32_bytes = unsafe { mem::transmute(r.configs.columns as i32) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+350 -     u32_bytes = unsafe { mem::transmute(r.configs.columns as i32) };
+350 +     u32_bytes = unsafe { i32::to_ne_bytes(r.configs.columns as i32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:353:26
+    |
+353 |     u64_bytes = unsafe { mem::transmute(r.configs.west) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+353 -     u64_bytes = unsafe { mem::transmute(r.configs.west) };
+353 +     u64_bytes = unsafe { f64::to_ne_bytes(r.configs.west) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:356:26
+    |
+356 |     u64_bytes = unsafe { mem::transmute(r.configs.south) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+356 -     u64_bytes = unsafe { mem::transmute(r.configs.south) };
+356 +     u64_bytes = unsafe { f64::to_ne_bytes(r.configs.south) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:359:26
+    |
+359 |     u64_bytes = unsafe { mem::transmute(r.configs.resolution_x) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+359 -     u64_bytes = unsafe { mem::transmute(r.configs.resolution_x) };
+359 +     u64_bytes = unsafe { f64::to_ne_bytes(r.configs.resolution_x) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:362:26
+    |
+362 |     u64_bytes = unsafe { mem::transmute(r.configs.resolution_y) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+362 -     u64_bytes = unsafe { mem::transmute(r.configs.resolution_y) };
+362 +     u64_bytes = unsafe { f64::to_ne_bytes(r.configs.resolution_y) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:365:26
+    |
+365 |     u64_bytes = unsafe { mem::transmute(r.configs.minimum) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+365 -     u64_bytes = unsafe { mem::transmute(r.configs.minimum) };
+365 +     u64_bytes = unsafe { f64::to_ne_bytes(r.configs.minimum) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:368:26
+    |
+368 |     u64_bytes = unsafe { mem::transmute(r.configs.maximum) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+368 -     u64_bytes = unsafe { mem::transmute(r.configs.maximum) };
+368 +     u64_bytes = unsafe { f64::to_ne_bytes(r.configs.maximum) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:371:26
+    |
+371 |     u64_bytes = unsafe { mem::transmute(0.0f64) }; // rotation of 0.0
+    |                          ^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+371 -     u64_bytes = unsafe { mem::transmute(0.0f64) }; // rotation of 0.0
+371 +     u64_bytes = unsafe { f64::to_ne_bytes(0.0f64) }; // rotation of 0.0
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:374:26
+    |
+374 |     u64_bytes = unsafe { mem::transmute(1.70141e38f64) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+374 -     u64_bytes = unsafe { mem::transmute(1.70141e38f64) };
+374 +     u64_bytes = unsafe { f64::to_ne_bytes(1.70141e38f64) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:378:26
+    |
+378 |     u32_bytes = unsafe { mem::transmute(0x41544144i32) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+378 -     u32_bytes = unsafe { mem::transmute(0x41544144i32) };
+378 +     u32_bytes = unsafe { i32::to_ne_bytes(0x41544144i32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:381:26
+    |
+381 |     u32_bytes = unsafe { mem::transmute((r.configs.rows * r.configs.columns * 8) as i32) };
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+381 -     u32_bytes = unsafe { mem::transmute((r.configs.rows * r.configs.columns * 8) as i32) };
+381 +     u32_bytes = unsafe { i32::to_ne_bytes((r.configs.rows * r.configs.columns * 8) as i32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/surfer7_raster.rs:388:34
+    |
+388 |             u64_bytes = unsafe { mem::transmute(r.data[i]) };
+    |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+388 -             u64_bytes = unsafe { mem::transmute(r.data[i]) };
+388 +             u64_bytes = unsafe { f64::to_ne_bytes(r.data[i]) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/whitebox_raster.rs:434:42
+    |
+434 |                     u64_bytes = unsafe { mem::transmute(r.data[i]) };
+    |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+434 -                     u64_bytes = unsafe { mem::transmute(r.data[i]) };
+434 +                     u64_bytes = unsafe { f64::to_ne_bytes(r.data[i]) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/whitebox_raster.rs:439:42
+    |
+439 |                     u32_bytes = unsafe { mem::transmute(r.data[i] as u32) };
+    |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+439 -                     u32_bytes = unsafe { mem::transmute(r.data[i] as u32) };
+439 +                     u32_bytes = unsafe { u32::to_ne_bytes(r.data[i] as u32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/whitebox_raster.rs:456:38
+    |
+456 |                 u32_bytes = unsafe { mem::transmute(r.data[i] as u32 as i32 as f32) };
+    |                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+456 -                 u32_bytes = unsafe { mem::transmute(r.data[i] as u32 as i32 as f32) };
+456 +                 u32_bytes = unsafe { f32::to_ne_bytes(r.data[i] as u32 as i32 as f32) };
+    |
+
+warning: unnecessary transmute
+   --> whitebox-raster/src/whitebox_raster.rs:467:38
+    |
+467 |                 u32_bytes = unsafe { mem::transmute(val) };
+    |                                      ^^^^^^^^^^^^^^^^^^^
+    |
+    = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+    |
+467 -                 u32_bytes = unsafe { mem::transmute(val) };
+467 +                 u32_bytes = unsafe { u32::to_ne_bytes(val) };
+    |
+
+   Compiling litemap v0.8.2
+   Compiling whitebox_lidar v2.3.0 (/work/whitebox-lidar)
+   Compiling icu_locale_core v2.2.0
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:2935:30
+     |
+2935 |         u16_bytes = unsafe { mem::transmute(self.header.file_source_id) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+     = note: `#[warn(unnecessary_transmutes)]` on by default
+help: replace this with
+     |
+2935 -         u16_bytes = unsafe { mem::transmute(self.header.file_source_id) };
+2935 +         u16_bytes = unsafe { u16::to_ne_bytes(self.header.file_source_id) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:2942:34
+     |
+2942 |             u32_bytes = unsafe { mem::transmute(self.header.project_id1) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+2942 -             u32_bytes = unsafe { mem::transmute(self.header.project_id1) };
+2942 +             u32_bytes = unsafe { u32::to_ne_bytes(self.header.project_id1) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:2945:34
+     |
+2945 |             u16_bytes = unsafe { mem::transmute(self.header.project_id2) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+2945 -             u16_bytes = unsafe { mem::transmute(self.header.project_id2) };
+2945 +             u16_bytes = unsafe { u16::to_ne_bytes(self.header.project_id2) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:2948:34
+     |
+2948 |             u16_bytes = unsafe { mem::transmute(self.header.project_id3) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+2948 -             u16_bytes = unsafe { mem::transmute(self.header.project_id3) };
+2948 +             u16_bytes = unsafe { u16::to_ne_bytes(self.header.project_id3) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:2956:46
+     |
+2956 |         let mut u8_bytes: [u8; 1] = unsafe { mem::transmute(self.header.version_major) };
+     |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+2956 -         let mut u8_bytes: [u8; 1] = unsafe { mem::transmute(self.header.version_major) };
+2956 +         let mut u8_bytes: [u8; 1] = unsafe { u8::to_ne_bytes(self.header.version_major) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:2960:29
+     |
+2960 |         u8_bytes = unsafe { mem::transmute(self.header.version_minor) };
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+2960 -         u8_bytes = unsafe { mem::transmute(self.header.version_minor) };
+2960 +         u8_bytes = unsafe { u8::to_ne_bytes(self.header.version_minor) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:2978:30
+     |
+2978 |         u16_bytes = unsafe { mem::transmute(self.header.file_creation_day) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+2978 -         u16_bytes = unsafe { mem::transmute(self.header.file_creation_day) };
+2978 +         u16_bytes = unsafe { u16::to_ne_bytes(self.header.file_creation_day) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:2983:30
+     |
+2983 |         u16_bytes = unsafe { mem::transmute(self.header.file_creation_year) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+2983 -         u16_bytes = unsafe { mem::transmute(self.header.file_creation_year) };
+2983 +         u16_bytes = unsafe { u16::to_ne_bytes(self.header.file_creation_year) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:2987:30
+     |
+2987 |         u16_bytes = unsafe { mem::transmute(self.header.header_size) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+2987 -         u16_bytes = unsafe { mem::transmute(self.header.header_size) };
+2987 +         u16_bytes = unsafe { u16::to_ne_bytes(self.header.header_size) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:2998:30
+     |
+2998 |         u32_bytes = unsafe { mem::transmute(self.header.offset_to_points) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+2998 -         u32_bytes = unsafe { mem::transmute(self.header.offset_to_points) };
+2998 +         u32_bytes = unsafe { u32::to_ne_bytes(self.header.offset_to_points) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3001:30
+     |
+3001 |         u32_bytes = unsafe { mem::transmute(self.header.number_of_vlrs) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3001 -         u32_bytes = unsafe { mem::transmute(self.header.number_of_vlrs) };
+3001 +         u32_bytes = unsafe { u32::to_ne_bytes(self.header.number_of_vlrs) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3049:29
+     |
+3049 |         u8_bytes = unsafe { mem::transmute(self.header.point_format) };
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3049 -         u8_bytes = unsafe { mem::transmute(self.header.point_format) };
+3049 +         u8_bytes = unsafe { u8::to_ne_bytes(self.header.point_format) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3072:30
+     |
+3072 |         u16_bytes = unsafe { mem::transmute(self.header.point_record_length) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3072 -         u16_bytes = unsafe { mem::transmute(self.header.point_record_length) };
+3072 +         u16_bytes = unsafe { u16::to_ne_bytes(self.header.point_record_length) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3081:30
+     |
+3081 |         u32_bytes = unsafe { mem::transmute(self.header.number_of_points_old) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3081 -         u32_bytes = unsafe { mem::transmute(self.header.number_of_points_old) };
+3081 +         u32_bytes = unsafe { u32::to_ne_bytes(self.header.number_of_points_old) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3086:34
+     |
+3086 |             u32_bytes = unsafe { mem::transmute(self.header.number_of_points_by_return[i] as u32) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3086 -             u32_bytes = unsafe { mem::transmute(self.header.number_of_points_by_return[i] as u32) };
+3086 +             u32_bytes = unsafe { u32::to_ne_bytes(self.header.number_of_points_by_return[i] as u32) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3090:30
+     |
+3090 |         u64_bytes = unsafe { mem::transmute(self.header.x_scale_factor) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3090 -         u64_bytes = unsafe { mem::transmute(self.header.x_scale_factor) };
+3090 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.x_scale_factor) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3093:30
+     |
+3093 |         u64_bytes = unsafe { mem::transmute(self.header.y_scale_factor) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3093 -         u64_bytes = unsafe { mem::transmute(self.header.y_scale_factor) };
+3093 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.y_scale_factor) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3096:30
+     |
+3096 |         u64_bytes = unsafe { mem::transmute(self.header.z_scale_factor) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3096 -         u64_bytes = unsafe { mem::transmute(self.header.z_scale_factor) };
+3096 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.z_scale_factor) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3099:30
+     |
+3099 |         u64_bytes = unsafe { mem::transmute(self.header.x_offset) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3099 -         u64_bytes = unsafe { mem::transmute(self.header.x_offset) };
+3099 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.x_offset) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3102:30
+     |
+3102 |         u64_bytes = unsafe { mem::transmute(self.header.y_offset) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3102 -         u64_bytes = unsafe { mem::transmute(self.header.y_offset) };
+3102 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.y_offset) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3105:30
+     |
+3105 |         u64_bytes = unsafe { mem::transmute(self.header.z_offset) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3105 -         u64_bytes = unsafe { mem::transmute(self.header.z_offset) };
+3105 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.z_offset) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3108:30
+     |
+3108 |         u64_bytes = unsafe { mem::transmute(self.header.max_x) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3108 -         u64_bytes = unsafe { mem::transmute(self.header.max_x) };
+3108 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.max_x) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3111:30
+     |
+3111 |         u64_bytes = unsafe { mem::transmute(self.header.min_x) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3111 -         u64_bytes = unsafe { mem::transmute(self.header.min_x) };
+3111 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.min_x) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3114:30
+     |
+3114 |         u64_bytes = unsafe { mem::transmute(self.header.max_y) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3114 -         u64_bytes = unsafe { mem::transmute(self.header.max_y) };
+3114 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.max_y) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3117:30
+     |
+3117 |         u64_bytes = unsafe { mem::transmute(self.header.min_y) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3117 -         u64_bytes = unsafe { mem::transmute(self.header.min_y) };
+3117 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.min_y) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3120:30
+     |
+3120 |         u64_bytes = unsafe { mem::transmute(self.header.max_z) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3120 -         u64_bytes = unsafe { mem::transmute(self.header.max_z) };
+3120 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.max_z) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3123:30
+     |
+3123 |         u64_bytes = unsafe { mem::transmute(self.header.min_z) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3123 -         u64_bytes = unsafe { mem::transmute(self.header.min_z) };
+3123 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.min_z) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3126:30
+     |
+3126 |         u64_bytes = unsafe { mem::transmute(self.header.waveform_data_start) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3126 -         u64_bytes = unsafe { mem::transmute(self.header.waveform_data_start) };
+3126 +         u64_bytes = unsafe { u64::to_ne_bytes(self.header.waveform_data_start) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3134:34
+     |
+3134 |             u16_bytes = unsafe { mem::transmute(vlr.reserved) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3134 -             u16_bytes = unsafe { mem::transmute(vlr.reserved) };
+3134 +             u16_bytes = unsafe { u16::to_ne_bytes(vlr.reserved) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3141:34
+     |
+3141 |             u16_bytes = unsafe { mem::transmute(vlr.record_id) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3141 -             u16_bytes = unsafe { mem::transmute(vlr.record_id) };
+3141 +             u16_bytes = unsafe { u16::to_ne_bytes(vlr.record_id) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3144:34
+     |
+3144 |             u16_bytes = unsafe { mem::transmute(vlr.record_length_after_header) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3144 -             u16_bytes = unsafe { mem::transmute(vlr.record_length_after_header) };
+3144 +             u16_bytes = unsafe { u16::to_ne_bytes(vlr.record_length_after_header) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3173:42
+     |
+3173 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].x) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3173 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].x) };
+3173 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].x) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3178:42
+     |
+3178 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].y) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3178 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].y) };
+3178 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].y) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3183:42
+     |
+3183 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].z) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3183 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].z) };
+3183 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].z) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3187:46
+     |
+3187 |                         u16_bytes = unsafe { mem::transmute(self.point_data[i].intensity) };
+     |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3187 -                         u16_bytes = unsafe { mem::transmute(self.point_data[i].intensity) };
+3187 +                         u16_bytes = unsafe { u16::to_ne_bytes(self.point_data[i].intensity) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3192:45
+     |
+3192 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].point_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3192 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].point_bit_field) };
+3192 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].point_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3195:45
+     |
+3195 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].class_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3195 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].class_bit_field) };
+3195 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].class_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3202:45
+     |
+3202 |                         u8_bytes = unsafe { mem::transmute(point_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3202 -                         u8_bytes = unsafe { mem::transmute(point_bit_field) };
+3202 +                         u8_bytes = unsafe { u8::to_ne_bytes(point_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3205:45
+     |
+3205 |                         u8_bytes = unsafe { mem::transmute(class_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3205 -                         u8_bytes = unsafe { mem::transmute(class_bit_field) };
+3205 +                         u8_bytes = unsafe { u8::to_ne_bytes(class_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3209:41
+     |
+3209 |                     u8_bytes = unsafe { mem::transmute(self.point_data[i].scan_angle as i8) };
+     |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3209 -                     u8_bytes = unsafe { mem::transmute(self.point_data[i].scan_angle as i8) };
+3209 +                     u8_bytes = unsafe { i8::to_ne_bytes(self.point_data[i].scan_angle as i8) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3213:45
+     |
+3213 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].user_data) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3213 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].user_data) };
+3213 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].user_data) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3217:42
+     |
+3217 |                     u16_bytes = unsafe { mem::transmute(self.point_data[i].point_source_id) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3217 -                     u16_bytes = unsafe { mem::transmute(self.point_data[i].point_source_id) };
+3217 +                     u16_bytes = unsafe { u16::to_ne_bytes(self.point_data[i].point_source_id) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3226:42
+     |
+3226 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].x) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3226 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].x) };
+3226 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].x) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3231:42
+     |
+3231 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].y) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3231 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].y) };
+3231 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].y) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3236:42
+     |
+3236 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].z) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3236 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].z) };
+3236 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].z) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3240:46
+     |
+3240 |                         u16_bytes = unsafe { mem::transmute(self.point_data[i].intensity) };
+     |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3240 -                         u16_bytes = unsafe { mem::transmute(self.point_data[i].intensity) };
+3240 +                         u16_bytes = unsafe { u16::to_ne_bytes(self.point_data[i].intensity) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3244:45
+     |
+3244 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].point_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3244 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].point_bit_field) };
+3244 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].point_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3247:45
+     |
+3247 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].class_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3247 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].class_bit_field) };
+3247 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].class_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3254:45
+     |
+3254 |                         u8_bytes = unsafe { mem::transmute(point_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3254 -                         u8_bytes = unsafe { mem::transmute(point_bit_field) };
+3254 +                         u8_bytes = unsafe { u8::to_ne_bytes(point_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3257:45
+     |
+3257 |                         u8_bytes = unsafe { mem::transmute(class_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3257 -                         u8_bytes = unsafe { mem::transmute(class_bit_field) };
+3257 +                         u8_bytes = unsafe { u8::to_ne_bytes(class_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3261:41
+     |
+3261 |                     u8_bytes = unsafe { mem::transmute(self.point_data[i].scan_angle as i8) };
+     |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3261 -                     u8_bytes = unsafe { mem::transmute(self.point_data[i].scan_angle as i8) };
+3261 +                     u8_bytes = unsafe { i8::to_ne_bytes(self.point_data[i].scan_angle as i8) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3265:45
+     |
+3265 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].user_data) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3265 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].user_data) };
+3265 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].user_data) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3269:42
+     |
+3269 |                     u16_bytes = unsafe { mem::transmute(self.point_data[i].point_source_id) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3269 -                     u16_bytes = unsafe { mem::transmute(self.point_data[i].point_source_id) };
+3269 +                     u16_bytes = unsafe { u16::to_ne_bytes(self.point_data[i].point_source_id) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3272:42
+     |
+3272 |                     u64_bytes = unsafe { mem::transmute(self.gps_data[i]) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3272 -                     u64_bytes = unsafe { mem::transmute(self.gps_data[i]) };
+3272 +                     u64_bytes = unsafe { f64::to_ne_bytes(self.gps_data[i]) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3280:42
+     |
+3280 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].x) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3280 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].x) };
+3280 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].x) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3285:42
+     |
+3285 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].y) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3285 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].y) };
+3285 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].y) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3290:42
+     |
+3290 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].z) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3290 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].z) };
+3290 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].z) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3294:46
+     |
+3294 |                         u16_bytes = unsafe { mem::transmute(self.point_data[i].intensity) };
+     |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3294 -                         u16_bytes = unsafe { mem::transmute(self.point_data[i].intensity) };
+3294 +                         u16_bytes = unsafe { u16::to_ne_bytes(self.point_data[i].intensity) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3299:45
+     |
+3299 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].point_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3299 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].point_bit_field) };
+3299 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].point_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3302:45
+     |
+3302 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].class_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3302 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].class_bit_field) };
+3302 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].class_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3309:45
+     |
+3309 |                         u8_bytes = unsafe { mem::transmute(point_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3309 -                         u8_bytes = unsafe { mem::transmute(point_bit_field) };
+3309 +                         u8_bytes = unsafe { u8::to_ne_bytes(point_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3312:45
+     |
+3312 |                         u8_bytes = unsafe { mem::transmute(class_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3312 -                         u8_bytes = unsafe { mem::transmute(class_bit_field) };
+3312 +                         u8_bytes = unsafe { u8::to_ne_bytes(class_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3316:41
+     |
+3316 |                     u8_bytes = unsafe { mem::transmute(self.point_data[i].scan_angle as i8) };
+     |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3316 -                     u8_bytes = unsafe { mem::transmute(self.point_data[i].scan_angle as i8) };
+3316 +                     u8_bytes = unsafe { i8::to_ne_bytes(self.point_data[i].scan_angle as i8) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3320:45
+     |
+3320 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].user_data) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3320 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].user_data) };
+3320 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].user_data) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3324:42
+     |
+3324 |                     u16_bytes = unsafe { mem::transmute(self.point_data[i].point_source_id) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3324 -                     u16_bytes = unsafe { mem::transmute(self.point_data[i].point_source_id) };
+3324 +                     u16_bytes = unsafe { u16::to_ne_bytes(self.point_data[i].point_source_id) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3327:42
+     |
+3327 |                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].red) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3327 -                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].red) };
+3327 +                     u16_bytes = unsafe { u16::to_ne_bytes(self.colour_data[i].red) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3330:42
+     |
+3330 |                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].green) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3330 -                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].green) };
+3330 +                     u16_bytes = unsafe { u16::to_ne_bytes(self.colour_data[i].green) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3333:42
+     |
+3333 |                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].blue) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3333 -                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].blue) };
+3333 +                     u16_bytes = unsafe { u16::to_ne_bytes(self.colour_data[i].blue) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3341:42
+     |
+3341 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].x) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3341 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].x) };
+3341 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].x) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3346:42
+     |
+3346 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].y) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3346 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].y) };
+3346 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].y) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3351:42
+     |
+3351 |                     u32_bytes = unsafe { mem::transmute(self.point_data[i].z) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3351 -                     u32_bytes = unsafe { mem::transmute(self.point_data[i].z) };
+3351 +                     u32_bytes = unsafe { i32::to_ne_bytes(self.point_data[i].z) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3355:46
+     |
+3355 |                         u16_bytes = unsafe { mem::transmute(self.point_data[i].intensity) };
+     |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3355 -                         u16_bytes = unsafe { mem::transmute(self.point_data[i].intensity) };
+3355 +                         u16_bytes = unsafe { u16::to_ne_bytes(self.point_data[i].intensity) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3360:45
+     |
+3360 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].point_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3360 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].point_bit_field) };
+3360 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].point_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3363:45
+     |
+3363 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].class_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3363 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].class_bit_field) };
+3363 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].class_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3370:45
+     |
+3370 |                         u8_bytes = unsafe { mem::transmute(point_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3370 -                         u8_bytes = unsafe { mem::transmute(point_bit_field) };
+3370 +                         u8_bytes = unsafe { u8::to_ne_bytes(point_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3373:45
+     |
+3373 |                         u8_bytes = unsafe { mem::transmute(class_bit_field) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3373 -                         u8_bytes = unsafe { mem::transmute(class_bit_field) };
+3373 +                         u8_bytes = unsafe { u8::to_ne_bytes(class_bit_field) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3377:41
+     |
+3377 |                     u8_bytes = unsafe { mem::transmute(self.point_data[i].scan_angle as i8) };
+     |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3377 -                     u8_bytes = unsafe { mem::transmute(self.point_data[i].scan_angle as i8) };
+3377 +                     u8_bytes = unsafe { i8::to_ne_bytes(self.point_data[i].scan_angle as i8) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3381:45
+     |
+3381 |                         u8_bytes = unsafe { mem::transmute(self.point_data[i].user_data) };
+     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3381 -                         u8_bytes = unsafe { mem::transmute(self.point_data[i].user_data) };
+3381 +                         u8_bytes = unsafe { u8::to_ne_bytes(self.point_data[i].user_data) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3385:42
+     |
+3385 |                     u16_bytes = unsafe { mem::transmute(self.point_data[i].point_source_id) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3385 -                     u16_bytes = unsafe { mem::transmute(self.point_data[i].point_source_id) };
+3385 +                     u16_bytes = unsafe { u16::to_ne_bytes(self.point_data[i].point_source_id) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3388:42
+     |
+3388 |                     u64_bytes = unsafe { mem::transmute(self.gps_data[i]) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3388 -                     u64_bytes = unsafe { mem::transmute(self.gps_data[i]) };
+3388 +                     u64_bytes = unsafe { f64::to_ne_bytes(self.gps_data[i]) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3391:42
+     |
+3391 |                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].red) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3391 -                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].red) };
+3391 +                     u16_bytes = unsafe { u16::to_ne_bytes(self.colour_data[i].red) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3394:42
+     |
+3394 |                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].green) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3394 -                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].green) };
+3394 +                     u16_bytes = unsafe { u16::to_ne_bytes(self.colour_data[i].green) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3397:42
+     |
+3397 |                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].blue) };
+     |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3397 -                     u16_bytes = unsafe { mem::transmute(self.colour_data[i].blue) };
+3397 +                     u16_bytes = unsafe { u16::to_ne_bytes(self.colour_data[i].blue) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3537:30
+     |
+3537 |         u16_bytes = unsafe { mem::transmute(self.header.file_source_id) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3537 -         u16_bytes = unsafe { mem::transmute(self.header.file_source_id) };
+3537 +         u16_bytes = unsafe { u16::to_ne_bytes(self.header.file_source_id) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3544:34
+     |
+3544 |             u32_bytes = unsafe { mem::transmute(self.header.project_id1) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3544 -             u32_bytes = unsafe { mem::transmute(self.header.project_id1) };
+3544 +             u32_bytes = unsafe { u32::to_ne_bytes(self.header.project_id1) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3547:34
+     |
+3547 |             u16_bytes = unsafe { mem::transmute(self.header.project_id2) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3547 -             u16_bytes = unsafe { mem::transmute(self.header.project_id2) };
+3547 +             u16_bytes = unsafe { u16::to_ne_bytes(self.header.project_id2) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3550:34
+     |
+3550 |             u16_bytes = unsafe { mem::transmute(self.header.project_id3) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3550 -             u16_bytes = unsafe { mem::transmute(self.header.project_id3) };
+3550 +             u16_bytes = unsafe { u16::to_ne_bytes(self.header.project_id3) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3558:46
+     |
+3558 |         let mut u8_bytes: [u8; 1] = unsafe { mem::transmute(self.header.version_major) };
+     |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3558 -         let mut u8_bytes: [u8; 1] = unsafe { mem::transmute(self.header.version_major) };
+3558 +         let mut u8_bytes: [u8; 1] = unsafe { u8::to_ne_bytes(self.header.version_major) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3562:29
+     |
+3562 |         u8_bytes = unsafe { mem::transmute(self.header.version_minor) };
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3562 -         u8_bytes = unsafe { mem::transmute(self.header.version_minor) };
+3562 +         u8_bytes = unsafe { u8::to_ne_bytes(self.header.version_minor) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3580:30
+     |
+3580 |         u16_bytes = unsafe { mem::transmute(self.header.file_creation_day) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3580 -         u16_bytes = unsafe { mem::transmute(self.header.file_creation_day) };
+3580 +         u16_bytes = unsafe { u16::to_ne_bytes(self.header.file_creation_day) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3585:30
+     |
+3585 |         u16_bytes = unsafe { mem::transmute(self.header.file_creation_year) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3585 -         u16_bytes = unsafe { mem::transmute(self.header.file_creation_year) };
+3585 +         u16_bytes = unsafe { u16::to_ne_bytes(self.header.file_creation_year) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3589:30
+     |
+3589 |         u16_bytes = unsafe { mem::transmute(self.header.header_size) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3589 -         u16_bytes = unsafe { mem::transmute(self.header.header_size) };
+3589 +         u16_bytes = unsafe { u16::to_ne_bytes(self.header.header_size) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3600:30
+     |
+3600 |         u32_bytes = unsafe { mem::transmute(self.header.offset_to_points) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3600 -         u32_bytes = unsafe { mem::transmute(self.header.offset_to_points) };
+3600 +         u32_bytes = unsafe { u32::to_ne_bytes(self.header.offset_to_points) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3603:30
+     |
+3603 |         u32_bytes = unsafe { mem::transmute(self.header.number_of_vlrs) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3603 -         u32_bytes = unsafe { mem::transmute(self.header.number_of_vlrs) };
+3603 +         u32_bytes = unsafe { u32::to_ne_bytes(self.header.number_of_vlrs) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3651:29
+     |
+3651 |         u8_bytes = unsafe { mem::transmute(self.header.point_format) };
+     |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3651 -         u8_bytes = unsafe { mem::transmute(self.header.point_format) };
+3651 +         u8_bytes = unsafe { u8::to_ne_bytes(self.header.point_format) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3674:30
+     |
+3674 |         u16_bytes = unsafe { mem::transmute(self.header.point_record_length) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3674 -         u16_bytes = unsafe { mem::transmute(self.header.point_record_length) };
+3674 +         u16_bytes = unsafe { u16::to_ne_bytes(self.header.point_record_length) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3683:30
+     |
+3683 |         u32_bytes = unsafe { mem::transmute(self.header.number_of_points_old) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3683 -         u32_bytes = unsafe { mem::transmute(self.header.number_of_points_old) };
+3683 +         u32_bytes = unsafe { u32::to_ne_bytes(self.header.number_of_points_old) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3688:34
+     |
+3688 |             u32_bytes = unsafe { mem::transmute(self.header.number_of_points_by_return[i] as u32) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3688 -             u32_bytes = unsafe { mem::transmute(self.header.number_of_points_by_return[i] as u32) };
+3688 +             u32_bytes = unsafe { u32::to_ne_bytes(self.header.number_of_points_by_return[i] as u32) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3692:30
+     |
+3692 |         u64_bytes = unsafe { mem::transmute(self.header.x_scale_factor) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3692 -         u64_bytes = unsafe { mem::transmute(self.header.x_scale_factor) };
+3692 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.x_scale_factor) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3695:30
+     |
+3695 |         u64_bytes = unsafe { mem::transmute(self.header.y_scale_factor) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3695 -         u64_bytes = unsafe { mem::transmute(self.header.y_scale_factor) };
+3695 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.y_scale_factor) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3698:30
+     |
+3698 |         u64_bytes = unsafe { mem::transmute(self.header.z_scale_factor) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3698 -         u64_bytes = unsafe { mem::transmute(self.header.z_scale_factor) };
+3698 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.z_scale_factor) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3701:30
+     |
+3701 |         u64_bytes = unsafe { mem::transmute(self.header.x_offset) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3701 -         u64_bytes = unsafe { mem::transmute(self.header.x_offset) };
+3701 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.x_offset) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3704:30
+     |
+3704 |         u64_bytes = unsafe { mem::transmute(self.header.y_offset) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3704 -         u64_bytes = unsafe { mem::transmute(self.header.y_offset) };
+3704 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.y_offset) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3707:30
+     |
+3707 |         u64_bytes = unsafe { mem::transmute(self.header.z_offset) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3707 -         u64_bytes = unsafe { mem::transmute(self.header.z_offset) };
+3707 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.z_offset) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3710:30
+     |
+3710 |         u64_bytes = unsafe { mem::transmute(self.header.max_x) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3710 -         u64_bytes = unsafe { mem::transmute(self.header.max_x) };
+3710 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.max_x) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3713:30
+     |
+3713 |         u64_bytes = unsafe { mem::transmute(self.header.min_x) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3713 -         u64_bytes = unsafe { mem::transmute(self.header.min_x) };
+3713 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.min_x) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3716:30
+     |
+3716 |         u64_bytes = unsafe { mem::transmute(self.header.max_y) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3716 -         u64_bytes = unsafe { mem::transmute(self.header.max_y) };
+3716 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.max_y) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3719:30
+     |
+3719 |         u64_bytes = unsafe { mem::transmute(self.header.min_y) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3719 -         u64_bytes = unsafe { mem::transmute(self.header.min_y) };
+3719 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.min_y) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3722:30
+     |
+3722 |         u64_bytes = unsafe { mem::transmute(self.header.max_z) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3722 -         u64_bytes = unsafe { mem::transmute(self.header.max_z) };
+3722 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.max_z) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3725:30
+     |
+3725 |         u64_bytes = unsafe { mem::transmute(self.header.min_z) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3725 -         u64_bytes = unsafe { mem::transmute(self.header.min_z) };
+3725 +         u64_bytes = unsafe { f64::to_ne_bytes(self.header.min_z) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3728:30
+     |
+3728 |         u64_bytes = unsafe { mem::transmute(self.header.waveform_data_start) };
+     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3728 -         u64_bytes = unsafe { mem::transmute(self.header.waveform_data_start) };
+3728 +         u64_bytes = unsafe { u64::to_ne_bytes(self.header.waveform_data_start) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3736:34
+     |
+3736 |             u16_bytes = unsafe { mem::transmute(vlr.reserved) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3736 -             u16_bytes = unsafe { mem::transmute(vlr.reserved) };
+3736 +             u16_bytes = unsafe { u16::to_ne_bytes(vlr.reserved) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3743:34
+     |
+3743 |             u16_bytes = unsafe { mem::transmute(vlr.record_id) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3743 -             u16_bytes = unsafe { mem::transmute(vlr.record_id) };
+3743 +             u16_bytes = unsafe { u16::to_ne_bytes(vlr.record_id) };
+     |
+
+warning: unnecessary transmute
+    --> whitebox-lidar/src/las.rs:3746:34
+     |
+3746 |             u16_bytes = unsafe { mem::transmute(vlr.record_length_after_header) };
+     |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = help: there's also `to_le_bytes` and `to_be_bytes` if you expect a particular byte order
+help: replace this with
+     |
+3746 -             u16_bytes = unsafe { mem::transmute(vlr.record_length_after_header) };
+3746 +             u16_bytes = unsafe { u16::to_ne_bytes(vlr.record_length_after_header) };
+     |
+
+warning: unnecessary transmute
+  --> whitebox-lidar/src/vlr.rs:43:21
+   |
+43 | /                     mem::transmute::<[u8; 8], f64>([
+44 | |                         self.binary_data[i],
+45 | |                         self.binary_data[i + 1],
+46 | |                         self.binary_data[i + 2],
+...  |
+51 | |                         self.binary_data[i + 7],
+52 | |                     ])
+   | |______________________^
+   |
+   = help: there's also `from_le_bytes` and `from_be_bytes` if you expect a particular byte order
+help: replace this with
+   |
+43 -                     mem::transmute::<[u8; 8], f64>([
+43 +                     f64::from_ne_bytes([
+   |
+
+   Compiling potential_utf v0.1.5
+   Compiling zerotrie v0.2.4
+   Compiling expat-sys v2.1.6
+   Compiling slotmap v1.1.1
+   Compiling bitflags v2.13.0
+   Compiling getrandom v0.2.17
+   Compiling khronos_api v3.1.0
+   Compiling icu_normalizer_data v2.2.0
+   Compiling utf8_iter v1.0.4
+   Compiling icu_properties_data v2.2.0
+   Compiling icu_collections v2.2.0
+   Compiling icu_provider v2.2.0
+   Compiling rand_core v0.6.4
+   Compiling wayland-protocols v0.29.5
+   Compiling tracing-core v0.1.36
+   Compiling glib-sys v0.15.10
+   Compiling vcpkg v0.2.15
+   Compiling percent-encoding v2.3.2
+   Compiling parking_lot v0.12.5
+   Compiling openssl-sys v0.9.117
+   Compiling tracing v0.1.44
+   Compiling crypto-common v0.1.7
+   Compiling nix v0.25.1
+   Compiling gobject-sys v0.15.10
+   Compiling fdeflate v0.3.7
+   Compiling servo-fontconfig-sys v5.1.0
+   Compiling smithay-client-toolkit v0.16.1
+   Compiling vec_map v0.8.2
+   Compiling getrandom v0.3.4
+   Compiling bytes v1.11.1
+   Compiling xcursor v0.3.10
+   Compiling calloop v0.10.6
+   Compiling wayland-cursor v0.29.5
+   Compiling gl_generator v0.14.0
+   Compiling png v0.17.16
+   Compiling icu_properties v2.2.0
+   Compiling icu_normalizer v2.2.0
+   Compiling ahash v0.8.12
+   Compiling memmap2 v0.5.10
+   Compiling base64 v0.21.7
+   Compiling subtle v2.6.1
+warning: `whitebox_raster` (lib) generated 53 warnings (run `cargo fix --lib -p whitebox_raster` to apply 53 suggestions)
+   Compiling ttf-parser v0.25.1
+   Compiling idna_adapter v1.2.2
+   Compiling form_urlencoded v1.2.2
+   Compiling block-buffer v0.10.4
+   Compiling foreign-types-macros v0.2.3
+   Compiling zstd-sys v2.0.16+zstd.1.5.7
+   Compiling mio v1.2.1
+   Compiling socket2 v0.6.4
+   Compiling gethostname v0.2.3
+   Compiling crossfont v0.5.2
+   Compiling x11-dl v2.21.0
+   Compiling futures-core v0.3.32
+   Compiling arrayref v0.3.9
+   Compiling foreign-types-shared v0.3.1
+   Compiling ab_glyph_rasterizer v0.1.10
+   Compiling foreign-types v0.5.0
+   Compiling tokio v1.52.3
+   Compiling tiny-skia-path v0.7.0
+   Compiling owned_ttf_parser v0.25.1
+   Compiling ab_glyph v0.2.32
+   Compiling digest v0.10.7
+   Compiling servo-fontconfig v0.5.1
+   Compiling idna v1.1.0
+   Compiling freetype-rs v0.26.0
+warning: `whitebox_lidar` (lib) generated 115 warnings (run `cargo fix --lib -p whitebox_lidar` to apply 115 suggestions)
+   Compiling atk-sys v0.15.1
+   Compiling gio-sys v0.15.10
+   Compiling gdk-sys v0.15.1
+   Compiling emath v0.19.0
+   Compiling safe_arch v0.5.2
+   Compiling fnv v1.0.7
+   Compiling cpufeatures v0.2.17
+   Compiling nohash-hasher v0.2.0
+   Compiling arrayvec v0.5.2
+   Compiling openssl v0.10.81
+   Compiling foreign-types-shared v0.1.1
+   Compiling foreign-types v0.3.2
+   Compiling tiny-skia v0.7.0
+   Compiling epaint v0.19.0
+   Compiling http v0.2.12
+error: failed to run custom build command for `gdk-sys v0.15.1`
+
+Caused by:
+  process didn't exit successfully: `/work/target/release/build/gdk-sys-f8f4701aa0d2f4e8/build-script-build` (exit status: 1)
+  --- stdout
+  cargo:rerun-if-env-changed=GDK_3.0_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+
+  pkg-config exited with status code 1
+  > PKG_CONFIG_PATH=/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/MPI/gcc12/openmpi4/cdo/2.2.2/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcc12/fftw/3.3.10/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcc12/eccodes/2.31.0/lib64/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/MPI/gcc12/openmpi4/yaxt/0.10.0/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/MPI/gcc12/openmpi4/arpack-ng/3.9.1/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Core/eigen/3.4.0/share/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcc12/openmpi/4.1.5/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/pmix/4.2.4/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/libfabric/1.18.0/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ucx/1.14.1/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/hwloc/2.9.1/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcc12/gdal/3.9.1/lib64/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/libspatialite/5.1.0/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/librttopo/1.1.0/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/freexl/2.0.0/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/postgresql/16.0/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/lerc/4.0.0/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/qhull/2020.2/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/cfitsio/4.3.0/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcc12/armadillo/12.6.4/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/openblascore/0.3.24/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcc12/netcdf-fortran/4.6.1/lib/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/r/4.5.0/lib64/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Core/flexiblascore/3.3.1/lib64/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/proj/9.2.0/lib64/pkgconfig:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/a
