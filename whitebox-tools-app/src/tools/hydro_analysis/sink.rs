@@ -227,10 +227,11 @@ impl WhiteboxTool for Sink {
         }
         let filled_dem2 = Arc::new(filled_dem);
         let (tx, rx) = mpsc::channel();
+        let mut handles = Vec::with_capacity(num_procs as usize);
         for tid in 0..num_procs {
             let filled_dem2 = filled_dem2.clone();
             let tx = tx.clone();
-            thread::spawn(move || {
+            handles.push(thread::spawn(move || {
                 let mut z: f64;
                 let mut zn: f64;
                 let mut flag: bool;
@@ -256,7 +257,7 @@ impl WhiteboxTool for Sink {
                     }
                 }
                 tx.send(pits).unwrap();
-            });
+            }));
         }
 
         let mut undefined_flow_cells = vec![];
@@ -276,6 +277,12 @@ impl WhiteboxTool for Sink {
         let mut input_configs = input.configs.clone();
         drop(input);
 
+        // Ensure all spawned threads (and their Arc clones) have fully
+        // exited before Arc::try_unwrap -- fixes intermittent
+        // "Error unwrapping 'filled_dem'" panics caused by a race condition.
+        for h in handles {
+            h.join().expect("Thread panicked");
+        }
         filled_dem = match Arc::try_unwrap(filled_dem2) {
             Ok(val) => val,
             Err(_) => panic!("Error unwrapping 'filled_dem'"),
